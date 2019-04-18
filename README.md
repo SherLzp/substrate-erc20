@@ -38,5 +38,16 @@ $ cargo build --release
 $ ./target/release/substratekitties --dev --ws-external --rpc-external
 ```
 
-> Now you can use the official website to access it！Good luck！
+> Now you can use the official website to access it！[substrate-ui](<https://substrate-ui.parity.io/#/settings>)
+
+> **Important! Don't forget to input the following json into the Settings/Developer**
+
+```json
+{
+  "AssetId": "u128",
+  "TokenBalance": "Balance"
+}
+```
+
+> Good luck！
 
